@@ -1,18 +1,57 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-content: center;
     text-align: center;
+    justify-content: center;
+
 }
+.theme {
+    background: rgb(224,76,141);
+    background: linear-gradient(90deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
+    color: #ffffff;
+}
+
 h1{
     font-size: 8vh;
 }
-/* .theme{
+.contain{
+    height: 70vh;
+}
+.contain1{
+    height: 30vh;
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.res{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20vh;
+}
+.res ol{
+    list-style: none;
+    padding: 0%;
+}
+form{
+    display: flex   ;
+    width: 100%;
+    align-items:center;
     justify-content: center;
 }
-.select{
-    border-radius: 100%;
-    border: 2px black solid;
-    padding: 10px;
-} */
+form input{
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 15px;
+    outline: none;
+    
+}
+form button{
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: none;
+}
