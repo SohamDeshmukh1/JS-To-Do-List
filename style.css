@@ -5,21 +5,35 @@ body{
     justify-content: center;
     overflow-y: hidden;
 }
+
+.Theme-changer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.select{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 41px;
+    height: 41px;
+}
+
 .theme {
     background: rgb(224,76,141);
     background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
+    color: #ffffff;
+}
+/* .theme1 {
+    background: rgb(61,61,179);
+    background: linear-gradient(58deg, rgba(61,61,179,1) 15%, rgba(18,23,42,1) 100%);
     color: #ffffff;
 }
 .theme2 {
     background: rgb(224,76,141);
     background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
     color: #ffffff;
-}
-.theme3 {
-    background: rgb(224,76,141);
-    background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
-    color: #ffffff;
-}
+} This will be made after perfect logic*/
 h1{
     font-size: 8vh;
 }
@@ -37,7 +51,7 @@ h1{
 
 .res{
     padding-left:0%;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +59,7 @@ h1{
 
 .inside{
     text-align: center;
-    width: 100%;
+    width: 70vw;
     height: max-content;
     display: flex;
     align-content: center;
@@ -55,6 +69,7 @@ h1{
 
 .inside button{
     right: 45vmin;
+    font-size: large;
     padding: 15px;
     border: none;
     justify-content: center;
@@ -103,9 +118,4 @@ form button{
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     border: none;
-}
-.content{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
