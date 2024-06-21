@@ -33,15 +33,27 @@ h1{
     align-items: center;
 }
 .inside{
-    width: 80%;
+    width: 100%;
+    height: max-content;
     display: flex;
     align-content: center;
     justify-content:center;
+
 }
 
 .inside button{
-    position: relative;
-    padding: 10px 20px;
+    right: 45vmin;
+    padding: 15px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    border: 1px white;
+}
+
+.res ul{
+    padding: 0%;
+    margin: 0%;
 }
 
 .res ol{
@@ -51,11 +63,9 @@ h1{
     background: rgb(170,94,169);
     background: linear-gradient(90deg, rgba(170,94,169,1) 23%, rgba(213,80,147,1) 32%, rgba(220,78,78,1) 46%, rgba(224,76,141,1) 100%, rgba(51,133,230,1) 100%);
     border: 1px solid white;
-    padding: 15px;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-    border-right-color:transparent;
-
+    border-radius: 1rem;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
 }
 form{
     display: flex   ;
