@@ -9,21 +9,17 @@ body{
     background: rgb(224,76,141);
     background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
     color: #ffffff;
-    background-repeat: no-repeat;
 }
 .theme2 {
     background: rgb(224,76,141);
     background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
     color: #ffffff;
-    background-repeat: no-repeat;
 }
 .theme3 {
     background: rgb(224,76,141);
     background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
     color: #ffffff;
-    background-repeat: no-repeat;
 }
-
 h1{
     font-size: 8vh;
 }
