@@ -19,18 +19,16 @@ function addlist(){
         ol.textContent = text;
 
         let del = document.createElement('button');
-        del.className = 'btn hover';
+        del.className = 'btn-hover';
         del.innerHTML = '<i class="fa-solid fa-trash" id="Delete"></i></i>';
-        del.addEventListener('click', () => { 
-            
-        });
+        del.id = 'Delete1';
 
         let edit = document.createElement('button');
-        del.className = ('btn-hover');
+        edit.className = 'btn-hover';
+        edit.id = 'Edit';
         edit.innerHTML = '<i class="fa-solid fa-pen-to-square"></i>'
         edit.style.borderTopRightRadius = '1rem';
         edit.style.borderBottomRightRadius = '1rem';
-        edit.addEventListener('click', () => { });
 
         addnew.appendChild(ol);
         addnew.appendChild(del);
@@ -44,3 +42,4 @@ function addlist(){
         alert('Please enter a task');
     }
 }
+
