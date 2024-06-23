@@ -23,23 +23,33 @@ body {
     background: rgb(224, 76, 141);
     background: linear-gradient(240deg, rgba(224, 76, 141, 1) 0%, rgba(51, 133, 230, 1) 100%);
     color: #fff9f9;
+    border-color: #fff9f9;
 }
 
-/* .theme1 {
-    background: rgb(61,61,179);
-    background: linear-gradient(58deg, rgba(61,61,179,1) 15%, rgba(18,23,42,1) 100%);
-    color: #ffffff;
+.theme1 {
+    background: hsla(270, 94%, 25%, 1);
+    background: linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(270, 94%, 25%, 1) 0%, hsla(158, 94%, 49%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#42047E", endColorstr="#07F49E", GradientType=1);
+    border-color: #fff9f9;
 }
+
 .theme2 {
-    background: rgb(224,76,141);
-    background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
+    background: hsla(213, 77%, 14%, 1);
+    background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
     color: #ffffff;
-} This will be made after perfect logic*/
+    border-color: #fff9f9;
+}
+
 h1 {
     font-size: 8vh;
 }
 
-.contain{
+.contain {
     height: 90vh;
 }
 
@@ -120,12 +130,12 @@ form input {
     border-bottom-left-radius: 0.5rem;
     padding: 15px;
     outline: none;
-    transition: background-color 200ms ease-out;
+    transition: background-color 200ms ease-out, color 200ms ease-in;
 }
 
 form input:hover {
+    color: black;
     background-color: #cbcbcb;
-    color: #ffffff;
 }
 
 form button {
