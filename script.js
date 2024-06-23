@@ -22,6 +22,9 @@ function addlist(){
         del.className = 'btn-hover';
         del.innerHTML = '<i class="fa-solid fa-trash" id="Delete"></i></i>';
         del.id = 'Delete1';
+        del.addEventListener('click',()=>{
+            addnew.remove();
+        })
 
         let edit = document.createElement('button');
         edit.className = 'btn-hover';
@@ -42,4 +45,3 @@ function addlist(){
         alert('Please enter a task');
     }
 }
-
