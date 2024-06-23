@@ -21,7 +21,6 @@ function addlist(){
         let del = document.createElement('button');
         del.className = 'btn-hover';
         del.innerHTML = '<i class="fa-solid fa-trash" id="Delete"></i></i>';
-        del.id = 'Delete1';
         del.addEventListener('click',()=>{
             addnew.remove();
         })
@@ -32,6 +31,10 @@ function addlist(){
         edit.innerHTML = '<i class="fa-solid fa-pen-to-square"></i>'
         edit.style.borderTopRightRadius = '1rem';
         edit.style.borderBottomRightRadius = '1rem';
+        edit.addEventListener('click',()=>{
+            let edit = prompt('Enter The edit')
+            ol.innerText = edit.trim('');
+        });
 
         addnew.appendChild(ol);
         addnew.appendChild(del);
