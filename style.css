@@ -19,11 +19,13 @@ body {
     height: 41px;
 }
 
+
 .theme {
     background: rgb(224, 76, 141);
     background: linear-gradient(240deg, rgba(224, 76, 141, 1) 0%, rgba(51, 133, 230, 1) 100%);
     color: #fff9f9;
     border-color: #fff9f9;
+    transition: background-color 500ms ease-in, color 500ms ease-in;
 }
 
 .theme1 {
@@ -34,6 +36,8 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AED1EF", endColorstr="#F2DFC1", GradientType=1 );
     border-color: #fff9f9;
     color: black;
+    transition: background-color 500ms ease-in, color 500ms ease-in;
+    
 }
 
 .theme2 {
@@ -44,6 +48,8 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
     color: #ffffff;
     border-color: #fff9f9;
+    transition: background-color 500ms ease-in, color 500ms ease-in;
+    
 }
 
 h1 {
@@ -111,6 +117,20 @@ h1 {
     background: rgb(170, 94, 169);
     background: linear-gradient(90deg, rgba(170, 94, 169, 1) 23%, rgba(213, 80, 147, 1) 32%, rgba(220, 78, 78, 1) 46%, rgba(224, 76, 141, 1) 100%, rgba(51, 133, 230, 1) 100%);
     border: 1px solid white;
+    font-size: x-large;
+    border-radius: 1rem;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.res1 ol {
+    justify-content: center;
+    list-style: none;
+    width: 50%;
+    background: rgb(170, 94, 169);
+    background: linear-gradient(90deg, rgba(170, 94, 169, 1) 23%, rgba(213, 80, 147, 1) 32%, rgba(220, 78, 78, 1) 46%, rgba(224, 76, 141, 1) 100%, rgba(51, 133, 230, 1) 100%);
+    border: 1px solid white;
+    font-size: x-large;
     border-radius: 1rem;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;

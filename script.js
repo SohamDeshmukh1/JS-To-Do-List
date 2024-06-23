@@ -4,6 +4,7 @@ let input = document.querySelector('#input');
 let add = document.querySelector('#add');
 let addnew1 = document.querySelector('.edit');
 let change = document.querySelector('.theme');
+let listtheme = document.querySelector('#res');
 
 
 add.addEventListener('click', (event) => {
