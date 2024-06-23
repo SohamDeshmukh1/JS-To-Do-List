@@ -3,6 +3,8 @@
 let input = document.querySelector('#input');
 let add = document.querySelector('#add');
 let addnew1 = document.querySelector('.edit');
+let change = document.querySelector('.theme');
+
 
 add.addEventListener('click', (event) => {
     event.preventDefault();
@@ -48,3 +50,21 @@ function addlist(){
         alert('Please enter a task');
     }
 }
+
+let deFault = document.querySelector('#default');
+let light = document.querySelector('#light');
+let dark = document.querySelector('#dark');
+
+deFault.addEventListener('click',()=>{
+    change.removeAttribute('class');
+    change.className = 'theme';
+})
+light.addEventListener('click',()=>{
+    change.removeAttribute('class');
+    change.className = 'theme1';
+})
+dark.addEventListener('click',()=>{
+    change.removeAttribute('class');
+    change.className = 'theme2';
+})
+
