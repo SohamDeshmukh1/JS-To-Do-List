@@ -1,18 +1,19 @@
-body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-content: center;
     text-align: center;
     justify-content: center;
     overflow-y: hidden;
 }
 
-.Theme-changer{
+.Theme-changer {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.select{
+
+.select {
     border: 1px solid black;
     border-radius: 100%;
     width: 41px;
@@ -20,10 +21,11 @@ body{
 }
 
 .theme {
-    background: rgb(224,76,141);
-    background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
+    background: rgb(224, 76, 141);
+    background: linear-gradient(240deg, rgba(224, 76, 141, 1) 0%, rgba(51, 133, 230, 1) 100%);
     color: #fff9f9;
 }
+
 /* .theme1 {
     background: rgb(61,61,179);
     background: linear-gradient(58deg, rgba(61,61,179,1) 15%, rgba(18,23,42,1) 100%);
@@ -34,13 +36,15 @@ body{
     background: linear-gradient(240deg, rgba(224,76,141,1) 0%, rgba(51,133,230,1) 100%);
     color: #ffffff;
 } This will be made after perfect logic*/
-h1{
+h1 {
     font-size: 8vh;
 }
-.contain{
+
+.contain {
     height: 90vh;
 }
-.contain1{
+
+.contain1 {
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -49,34 +53,35 @@ h1{
     /* padding: 30px; */
 }
 
-.res{
-    padding-left:0%;
+.res {
+    padding-left: 0%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.inside{
+.inside {
     text-align: center;
     width: 70vw;
+    padding-bottom: 10px;
     height: max-content;
     display: flex;
     align-content: center;
-    justify-content:center;
-
+    justify-content: center;
 }
 
-.inside button{
+.inside button {
     right: 45vmin;
     font-size: large;
     padding: 15px;
     border: none;
     justify-content: center;
     align-items: center;
-    width:fit-content;
+    width: fit-content;
     border: 1px white;
 }
+
 .inside ol {
     text-align: center;
     display: flex;
@@ -85,26 +90,31 @@ h1{
 
 }
 
-.res ol{
+.res ul {
+    padding-inline-start: 0%;
+}
+
+.res ol {
     justify-content: center;
     list-style: none;
-    padding: 0%;
     width: 50%;
-    background: rgb(170,94,169);
-    background: linear-gradient(90deg, rgba(170,94,169,1) 23%, rgba(213,80,147,1) 32%, rgba(220,78,78,1) 46%, rgba(224,76,141,1) 100%, rgba(51,133,230,1) 100%);
+    background: rgb(170, 94, 169);
+    background: linear-gradient(90deg, rgba(170, 94, 169, 1) 23%, rgba(213, 80, 147, 1) 32%, rgba(220, 78, 78, 1) 46%, rgba(224, 76, 141, 1) 100%, rgba(51, 133, 230, 1) 100%);
     border: 1px solid white;
     border-radius: 1rem;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 0%;
 }
-form{
-    display: flex   ;
+
+form {
+    display: flex;
     width: 100%;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 
 }
-form input{
+
+form input {
     width: 50%;
     border: none;
     border-top-left-radius: 0.5rem;
@@ -114,23 +124,24 @@ form input{
     transition: background-color 200ms ease-out;
 }
 
-form input:hover{
+form input:hover {
     background-color: #cbcbcb;
     color: #ffffff;
 }
 
-form button{
+form button {
     padding: 15px;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     border: none;
     transition: background-color 200ms ease-out, color 200ms ease-out;
 }
-.btn-hover{
+
+.btn-hover {
     transition: background-color 200ms ease-out, color 200ms ease-out;
 }
 
-.btn-hover:hover{
+.btn-hover:hover {
     background-color: #000000;
     color: #fff9f9;
 }
