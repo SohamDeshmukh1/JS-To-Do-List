@@ -4,6 +4,7 @@ let input = document.querySelector('#input');
 let add = document.querySelector('#add');
 let addnew1 = document.querySelector('.edit');
 let change = document.querySelector('.theme');
+let bands = document.querySelector('.res');
 
 
 add.addEventListener('click', (event) => {
@@ -42,8 +43,7 @@ function addlist(){
         addnew.appendChild(del);
         addnew.appendChild(edit);
 
-        addnew1.append(addnew);
-        console.log(addnew);
+        addnew1.appendChild(addnew);
         input.value = '';
     }
     else{
@@ -58,13 +58,21 @@ let dark = document.querySelector('#dark');
 deFault.addEventListener('click',()=>{
     change.removeAttribute('class');
     change.className = 'theme';
+    bands.removeAttribute('class');
+    bands.className = 'res';
+
 })
 light.addEventListener('click',()=>{
     change.removeAttribute('class');
     change.className = 'theme1';
+    bands.removeAttribute('class');
+    bands.className = 'res1';
+
 })
 dark.addEventListener('click',()=>{
     change.removeAttribute('class');
     change.className = 'theme2';
+    bands.removeAttribute('class');
+    bands.className = 'res2';
 })
 

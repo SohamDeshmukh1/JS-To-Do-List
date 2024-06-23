@@ -25,7 +25,7 @@ body {
     background: linear-gradient(240deg, rgba(224, 76, 141, 1) 0%, rgba(51, 133, 230, 1) 100%);
     color: #fff9f9;
     border-color: #fff9f9;
-    transition: background-color 500ms ease-in, color 500ms ease-in;
+    transition: background-color 3s ease-in, color 500ms ease-in;
 }
 
 .theme1 {
@@ -36,7 +36,7 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AED1EF", endColorstr="#F2DFC1", GradientType=1 );
     border-color: #fff9f9;
     color: black;
-    transition: background-color 500ms ease-in, color 500ms ease-in;
+    transition: background-color 3s ease-in, color 500ms ease-in;
     
 }
 
@@ -48,7 +48,7 @@ body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
     color: #ffffff;
     border-color: #fff9f9;
-    transition: background-color 500ms ease-in, color 500ms ease-in;
+    transition: background-color 3s ease-out, color 500ms ease-in;
     
 }
 
@@ -57,7 +57,7 @@ h1 {
 }
 
 .contain {
-    height: 90vh;
+    height: 80vh;
 }
 
 .contain1 {
@@ -76,13 +76,72 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+.res ul {
+    padding-inline-start: 0%;
+}
 
+.res ol {
+    justify-content: center;
+    list-style: none;
+    width: 50%;
+    background: rgb(170, 94, 169);
+    background: linear-gradient(90deg, rgba(170, 94, 169, 1) 23%, rgba(213, 80, 147, 1) 32%, rgba(220, 78, 78, 1) 46%, rgba(224, 76, 141, 1) 100%, rgba(51, 133, 230, 1) 100%);
+    border: 1px solid white;
+    font-size: x-large;
+    border-radius: 1rem;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    /* transition: background-color 300ms ease-in-out, color 300ms ease-in-out;  */
+}
+/* Next Band */
 .res1 {
     padding-left: 0%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.res1 ul {
+    padding-inline-start: 0%;
+}
+
+.res1 ol {
+    justify-content: center;
+    list-style: none;
+    width: 50%;
+    background: rgb(172,172,182);
+    background: linear-gradient(58deg, rgba(172,172,182,1) 15%, rgba(121,121,119,1) 100%);
+    color: black;
+    font-size: x-large;
+    border-radius: 1rem;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+/* Next Band  */
+
+.res2 {
+    padding-left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.res2 ul {
+    padding-inline-start: 0%;
+}
+
+.res2 ol {
+    justify-content: center;
+    list-style: none;
+    width: 50%;
+    background: rgb(200,200,237);
+    background: linear-gradient(58deg, rgba(200,200,237,1) 15%, rgba(255,254,233,1) 100%);
+    color: black;
+    border: 1px solid white;
+    font-size: x-large;
+    border-radius: 1rem;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
 }
 
 .inside {
@@ -114,24 +173,6 @@ h1 {
 
 }
 
-.res ul {
-    padding-inline-start: 0%;
-}
-
-.res ol {
-    justify-content: center;
-    list-style: none;
-    width: 50%;
-    background: rgb(170, 94, 169);
-    background: linear-gradient(90deg, rgba(170, 94, 169, 1) 23%, rgba(213, 80, 147, 1) 32%, rgba(220, 78, 78, 1) 46%, rgba(224, 76, 141, 1) 100%, rgba(51, 133, 230, 1) 100%);
-    border: 1px solid white;
-    font-size: x-large;
-    border-radius: 1rem;
-    border-top-right-radius: 0%;
-    border-bottom-right-radius: 0%;
-}
-
-
 form {
     display: flex;
     width: 100%;
@@ -147,7 +188,7 @@ form input {
     border-bottom-left-radius: 0.5rem;
     padding: 15px;
     outline: none;
-    transition: background-color 200ms ease-out, color 200ms ease-in;
+    transition: background-color 200ms ease-out, color 100ms ease-in;
 }
 
 form input:hover {
@@ -160,11 +201,11 @@ form button {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     border: none;
-    transition: background-color 200ms ease-out, color 200ms ease-out;
+    transition: background-color 200ms ease-out, color 100ms ease-out;
 }
 
 .btn-hover {
-    transition: background-color 200ms ease-out, color 200ms ease-out;
+    transition: background-color 200ms ease-out, color 100ms ease-out;
 }
 
 .btn-hover:hover {
